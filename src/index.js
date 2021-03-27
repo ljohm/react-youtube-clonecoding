@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./app";
 import axios from "axios";
 import Youtube from "./components/service/youtube";
+import "@fortawesome/fontawesome-free/js/all.js";
 
 const httpClient = axios.create({
   baseURL: "https://www.googleapis.com/youtube/v3",
